@@ -12,16 +12,16 @@
         <nav>
             <img class="logo" src="src/images/logo.png" alt="logo">
             <ul>
-                <li>Sobre</li>
-                <li>Projetos</li>
-                <li>Contato</li>
+                <li><a href="#about-me">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
         <div class="hero-area">
             <div class="hero-text">
                 <h1>Wesley Endliche</h1>
                 <p>Desenvolvedor FrontEnd</p>
-                <div class="button">Sobre</div>
+                <div class="button"><a href="#about-me">Sobre</a></div>
             </div>
             <div class="socials">
                 <div><a href="https://github.com/wesleyendliche" class="social">
@@ -36,7 +36,7 @@
             </div>
         </div>   
     </section>
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
         <div class="information">
             <h2>Sobre Mim</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum sapiente magni.</p>
@@ -45,8 +45,43 @@
             <img class="headshot" src="src/images/Untitled-1.jpg" alt="Wes headshot">
         </div>
     </section>
-    <section class="sub-section"></section>
-    <footer></footer>
+    <section class="sub-section-alternative" id="projects">
+        <h2>Projetos</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img class="project-image" src="src/images/project1.jpg" alt="Project One Image">
+                <h3>Projeto Um</h3>
+                <p class="subtext">This is my project and some text about it. I enjoyed making this website.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/wesleyendliche">View here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="src/images/project2.jpg" alt="Project Two Image">
+                <h3>Projeto Dois</h3>
+                <p class="subtext">This is my project and some text about it. I enjoyed making this website.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/wesleyendliche">View here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="src/images/project3.png" alt="Project Three Image">
+                <h3>Projeto Três</h3>
+                <p class="subtext">This is my project and some text about it. I enjoyed making this website.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/wesleyendliche">View here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="src/images/Project4.jpg" alt="Project Four Image">
+                <h3>Projeto Quatro</h3>
+                <p class="subtext">This is my project and some text about it. I enjoyed making this website.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/wesleyendliche">View here</a></p>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <h2>Fale comigo</h2>
+        <p>wesleyhoo@hotmail.com</p>
+    </footer>
 
     <script src="src/app.js"></script>
 </body>
